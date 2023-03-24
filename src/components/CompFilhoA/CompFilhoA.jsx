@@ -1,5 +1,9 @@
+import { CompFilhoC } from "../CompFilhoC/CompFilhoC";
 import "./CompFilhoA.css";
 
-export function CompFilhoA() {
-  return <div className="filho-a"></div>;
+export function CompFilhoA({valor}) {
+  return (<div className="filho-a">
+    <h3>Filho A</h3>
+    <CompFilhoC valor ={valor}/>
+  </div>);
 }

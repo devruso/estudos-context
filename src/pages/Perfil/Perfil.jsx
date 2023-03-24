@@ -1,5 +1,5 @@
 import "./Perfil.css";
 
 export function Perfil() {
-  return <></>;
+  return <div><h1>Perfil</h1></div>;
 }
